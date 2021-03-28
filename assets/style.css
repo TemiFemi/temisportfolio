@@ -1,0 +1,19 @@
+header{
+    background-color:#9F838C;
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color:white
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style: none;
+}
+
+.temitayo {
+    background-color: #BAABBD;
+}

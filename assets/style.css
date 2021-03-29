@@ -1,19 +1,105 @@
-header{
-    background-color:#9F838C;
-    display: inline;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    color:white
+main {
+    background-color: rgb(185, 185, 185);
+    height:100%;
+    display: flex
 }
 
-nav ul {
+#right {
+    order: 1;
+}
+
+header{
+    background-color: #0a3b53;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    color:white;
+    padding-left: 0px;
+}
+
+nav ul{
     display: flex;
     justify-content: space-between;
     min-width: 300px;
     list-style: none;
 }
 
-.temitayo {
-    background-color: #BAABBD;
+.zadra {
+    text-indent: 110px;
+    background-color: #586F7C;
+    margin-right: 100px;
+    width: 13em;
+}
+
+a {
+    color:white
+}
+
+aside {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(185,185,185);
+}
+
+aside{
+    border-right: 3px solid darkblue;
+}
+
+#aboutmeaside{
+    background-color: darkblue;
+}
+
+#workaside{
+    background-color: darkgoldenrod;
+    height:800px;
+}
+
+#contactme{
+    background-color: darkolivegreen;
+}
+
+#right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:5px;
+}
+
+#imagesection {
+    height: 290px;
+    padding-top: 10px;
+}
+
+#aboutme {
+    display: flex;
+    flex-direction: column;
+    height: 290px;
+    padding-top: 10px;
+}
+
+footer {
+    display:flex;
+    flex-direction: column;
+    height: 90px;
+    padding-top: 10px;
+}
+
+#contactme {
+    height:100px;
+}
+
+#imagesection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#bigimage {
+    height:140px;
+}
+
+#smallimages{
+    height:140px
 }

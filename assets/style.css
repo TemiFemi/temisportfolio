@@ -4,9 +4,15 @@ main {
     display: flex
 }
 
+#temi{
+    box-shadow: 5px 10px 18px red
+
+}
+
 #right {
     order: 1;
 }
+
 
 header{
     background-color: #0a3b53;
@@ -16,6 +22,10 @@ header{
     padding: 1%;
     color:white;
     padding-left: 0px;
+}
+
+.temitayo {
+    box-shadow: darkorange;
 }
 
 nav ul{

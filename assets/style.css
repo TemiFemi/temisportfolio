@@ -21,7 +21,7 @@ p {
 }
 
 header {
-    background-color:#9EC5AB;
+    background-color:#080C0A;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,11 +29,15 @@ header {
     padding:1%;
 }
 
+
+
 .temi {
-    background-color:#01200F;
+    background-color:#080C0A;
     text-indent:50px;
     margin-left: -15px;
     width: 475px;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
 nav ul{
@@ -71,7 +75,7 @@ nav a {
 }
 
 .container > section {
-    background-color:#011502;
+    background-color:#101814;
     padding:20px;
 }
 
@@ -107,7 +111,7 @@ nav a {
     grid-row-start: 3;
     grid-row-end: 4;
     font-size: 25px;
-    display: inline;
+    display: flex;
     justify-content: flex-end;
     border-right-style: solid;
     border-color: black;
@@ -133,7 +137,7 @@ nav a {
     grid-column-end: 5;
     grid-row-start: 3;
     grid-row-end: 4;
-    display: flex;
+    display: inline;
     justify-content: center;
     min-width: 300px;
     flex-direction: row;
@@ -144,6 +148,8 @@ nav a {
     list-style: none;
     padding-top: 20px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 ul #horizontal li{
@@ -159,7 +165,7 @@ ul #horizontal li{
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
     grid-gap: 20px;
     padding: 10px;
 }
@@ -182,6 +188,7 @@ grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
+    grid-template-rows: 100px 100px;
 }
 
 #Image3 {
@@ -189,6 +196,7 @@ grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
+    grid-template-rows: 100px 100px;
 }
 
 #Image4 {
@@ -196,6 +204,8 @@ grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
+    grid-template-rows: 100px 100px;
+
 }
 
 #Image5 {
@@ -203,6 +213,8 @@ grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 5;
+    grid-template-rows: 100px 100px;
+
 }
 
 #Image6{
@@ -210,5 +222,56 @@ grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 5;
+    grid-template-rows: 100px 100px;
+
 }
  
+.inbox-text{
+    display: inline-block;
+    position: relative;
+    bottom:20%;
+    background-color: var(--medgreen);
+    padding-left: 30px;
+    padding-right: 20px;
+    border:solid 5px red
+}
+
+.inbox-text2{
+    display: inline-block;
+    position: relative;
+    bottom:20%;
+    background-color: var(--medgreen);
+    padding-left: 30px;
+    padding-right: 20px;
+    border:solid 5px red
+}
+
+.inbox-text3 {
+    display: inline-block;
+    position: relative;
+    bottom:20%;
+    background-color: var(--medgreen);
+    padding-left: 30px;
+    padding-right: 20px;
+    border:solid 5px red
+}
+
+.inbox-text4{
+    display: inline-block;
+    position: relative;
+    bottom:10%;
+    background-color: var(--medgreen);
+    padding-left: 30px;
+    padding-right: 20px;
+    border:solid 5px red
+}
+
+.inbox-text5 {
+    display: inline-block;
+    position: relative;
+    bottom:10%;
+    background-color: var(--medgreen);
+    padding-left: 30px;
+    padding-right: 20px;
+    border:solid 5px red
+}

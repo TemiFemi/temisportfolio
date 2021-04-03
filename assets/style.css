@@ -29,6 +29,10 @@ header {
     padding:1%;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 
 .temi {
@@ -37,7 +41,7 @@ header {
     margin-left: -15px;
     width: 475px;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    box-shadow:black
 }
 
 nav ul{
@@ -50,7 +54,7 @@ nav ul{
 nav a {
     color:white;
     font-weight: bold;
-    border-bottom:3px solid #fff;
+    /* border-bottom:3px solid #fff; */
     padding:5px;
     margin:10px;
 }
@@ -150,6 +154,7 @@ nav a {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    font-size: ;
 }
 
 ul #horizontal li{
@@ -168,6 +173,7 @@ ul #horizontal li{
     grid-template-rows: 200px 200px;
     grid-gap: 20px;
     padding: 10px;
+    
 }
 
 .grid img{
@@ -189,6 +195,7 @@ grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end: 3;
     grid-template-rows: 100px 100px;
+    border: 10px solid black;
 }
 
 #Image3 {
@@ -197,6 +204,7 @@ grid-column-start: 1;
     grid-row-start: 3;
     grid-row-end: 4;
     grid-template-rows: 100px 100px;
+    border: 10px solid black;
 }
 
 #Image4 {
@@ -205,6 +213,7 @@ grid-column-start: 1;
     grid-row-start: 3;
     grid-row-end: 4;
     grid-template-rows: 100px 100px;
+    border: 10px solid black
 
 }
 
@@ -214,6 +223,7 @@ grid-column-start: 1;
     grid-row-start: 4;
     grid-row-end: 5;
     grid-template-rows: 100px 100px;
+    border: 10px solid black;
 
 }
 
@@ -223,7 +233,7 @@ grid-column-start: 1;
     grid-row-start: 4;
     grid-row-end: 5;
     grid-template-rows: 100px 100px;
-
+    border: 10px solid black
 }
  
 .inbox-text{
@@ -233,7 +243,9 @@ grid-column-start: 1;
     background-color: var(--medgreen);
     padding-left: 30px;
     padding-right: 20px;
-    border:solid 5px red
+    border:solid 5px black;
+    color:white
+
 }
 
 .inbox-text2{
@@ -243,7 +255,8 @@ grid-column-start: 1;
     background-color: var(--medgreen);
     padding-left: 30px;
     padding-right: 20px;
-    border:solid 5px red
+    border:solid 5px black;
+    color:white
 }
 
 .inbox-text3 {
@@ -253,7 +266,8 @@ grid-column-start: 1;
     background-color: var(--medgreen);
     padding-left: 30px;
     padding-right: 20px;
-    border:solid 5px red
+    border:solid 5px black;
+    color:white;
 }
 
 .inbox-text4{
@@ -263,7 +277,8 @@ grid-column-start: 1;
     background-color: var(--medgreen);
     padding-left: 30px;
     padding-right: 20px;
-    border:solid 5px red
+    border:solid 5px black;
+    color:white;
 }
 
 .inbox-text5 {
@@ -273,5 +288,20 @@ grid-column-start: 1;
     background-color: var(--medgreen);
     padding-left: 30px;
     padding-right: 20px;
-    border:solid 5px red
+    border:solid 5px black;
+    color: white;
 }
+
+.grid img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    }
+    
+.grid img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }

@@ -239,7 +239,7 @@ grid-column-start: 1;
 .inbox-text{
     display: inline-block;
     position: relative;
-    bottom:20%;
+    bottom:15%;
     background-color: var(--medgreen);
     padding-left: 30px;
     padding-right: 20px;
@@ -305,3 +305,16 @@ grid-column-start: 1;
     filter: none;
     transition: 1s ease;
     }
+
+@media screen and (max-width:100px) {
+     #Image2 #Image3 #Image4 #Image5 #Image6{
+         max-width: 100px;
+     }
+}
+
+@media screen and (max-width:100px) {
+    #horizontal {
+        max-width: 100px;
+    }
+}
+

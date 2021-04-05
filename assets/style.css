@@ -306,15 +306,21 @@ grid-column-start: 1;
     transition: 1s ease;
     }
 
-@media screen and (max-width:100px) {
-     #Image2 #Image3 #Image4 #Image5 #Image6{
-         max-width: 100px;
-     }
-}
-
-@media screen and (max-width:100px) {
-    #horizontal {
-        max-width: 100px;
+    @media screen and (max-width: 913px) {
+        header, main {
+          flex-direction: column;
+        }
+        section {
+          padding-right: 0;
+        }
+        #horizontal {
+          width: 100%;
+          text-align: left;
+          padding-left: 300px;
+          flex-direction: column;
+        }
+        .grid {
+            flex-direction: column;
+          }
     }
-}
 
